@@ -13,13 +13,10 @@ This plugin adds the following rule:
 ## Sample Configuration
 ```js
 module.exports = {
-	extends: ['@commitlint/config-conventional'],
-	plugins: ['jira-issue-in-scope'],
-	rules: {
-		'jira-issue-in-scope': [
-			2, 
-			'always'
-		]
-	}
+    extends: ['@commitlint/config-conventional'],
+    plugins: ['jira-issue-in-scope'],
+    rules: {
+        'jira-issue-in-scope': [2, 'always']
+    }
 };
 ```
